@@ -1138,4 +1138,4 @@ server = function(input , output ,session){
 
 #shinyApp(ui, server, options  ="launch.browser")
 
-runApp(shinyApp(ui, server), launch.browser = T)
+shinyApp(ui, server, options = "launch.browser") 
